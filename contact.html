@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+        <title>Contact Us at Happy Feet Swim School</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="base.css" />
+        <link rel="stylesheet" type="text/css" href="style1.css" />
+        <link rel="stylesheet" type="text/css" href="layout_style.css" />
+   </head>
+   <body>
+      <div id="layout">
+      <header>
+         <h1>HappyFeetSwimSchool.com</h1>
+         <h4>Your swimming journey starts here...</h4>
+      </header><!-- end header -->
+      <nav>
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Programs</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+         </ul>
+      </nav><!-- end nav -->
+      <section>
+        <h2>Contact Us</h2>
+      </section>
+      <main>
+         <aside id="contact">
+            <h5>Address:</h5>
+            <address>
+               Happy Feet Swim School<br/>
+               1475 Lawrence St.<br/>
+               Denver, CO 80202
+            </address>
+            <h5>Phone:</h5>
+            <a href="tel:1-303-315-8000">303-315-8000</a>
+         </aside>
+         <p>Please email us if you have any questions or concerns. &nbsp;</p>
+         <p><a href="mailto:jiayi.2.li@ucdenver.edu">jiayi.2.li@ucdenver.edu</a></p>
+         <p>A team member of Happy Feet Swim School will respond to your email within 24 hours.</p><br />
+         
+         <form action="mailto:jiayi.2.li@ucdenver.edu" method="POST" id="contactus" name="frmContact">
+            <p>Feel free to fill out our easy form to get in touch with us</p>
+            <input type="hidden" name="txtH" value="Contact Form" />
+            <fieldset>
+               <legend>Contact Information</legend>
+                  <div class="formRow">
+                     <label for="tn">Name</label>
+                     <input type="text" name="txtName" id="tn" size="30" required/><br />
+                  </div>
+                  <div class="formRow">
+                     <label for="te">Email Address</label>
+                     <input type="email" name="txtEmail" id="te" size="30" required/><br />
+                  </div>
+                  <div class="formRow">
+                     <label for="tn">Phone</label>
+                     <input type="tel" name="txtTel" id="tt" size="30"/><br />
+                  </div>   
+            </fieldset>
+            <fieldset>
+               <legend>Inquiry</legend>
+               <div class="formRow">
+                  <label for="ld">Inquiry Topic</label>
+                     <select name="Inq" id="ld" required>
+                        <option>Select a topic</option>
+                        <option>Our Program</option>
+                        <option>Our Organization</option>
+                        <option>Other</option>
+                     </select><br />
+               </div>
+               <div class="formRow">
+                  <label for="ts">Subject</label>
+                  <input type="text" name="txtSubject" id="ts" size="30" required/><br />
+               </div>
+                  <label id="lmsg" for="tmsg">Ask us your question</label>
+                  <textarea name="messaage" id="tmsg" rows="5" cols="100" required></textarea>
+             </fieldset>
+             <fieldset>
+               <legend>Would you like to receive newsletters from us?</legend>
+               <div class="formRad">
+                  <label for="oComm1">Yes</label>
+                  <input type="radio" name="optComm" id="oComm1" />
+                  <label for="oComm2">No</label>
+                  <input type="radio" name="optComm" id="oComm2" />
+               </div>
+             </fieldset>
+             <div class="buttonRow">
+               <input type="submit" value="Submit Inquiry" />
+            </div>
+         </form> 
+      </main><!-- end content -->
+      <footer>
+         <p>Copyright 2022 by Jiayi Li</p>
+      </footer>
+      </div>
+   </body>
+</html>

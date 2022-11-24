@@ -1,0 +1,247 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+h1{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: white;
+    letter-spacing: -1px;
+    margin-bottom: 0px;
+}
+
+h4{
+    font-style: italic;
+    color: white;
+    letter-spacing: -1px;
+    margin-top: 0px;
+}
+
+header{
+    background-color: #244e71;
+}
+
+main{
+    background-color: white;
+}
+
+.center{
+    text-align: center;
+}
+
+header, main, footer, nav{
+    padding: 5px 5px 5px 5px;
+}
+
+footer{
+    color:white;
+    background-color: #24716e;
+    font-size: x-small;
+    text-align: center;
+    line-height: 3em;
+}
+
+nav{
+    background-color: #adcde6;
+}
+
+nav a{
+    color: #24716e;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px 10px 3px 10px;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+ul{
+    list-style-image: url(bullet.gif);
+}
+
+header{
+    background: url(logowatersplash.png) #244e71 no-repeat;
+    background-size: 70px 70px;
+    background-position: 10px 5px;
+    padding-left: 90px;
+    height: 75px;
+}
+
+#layout{
+background-color: #efefef;
+}
+
+aside#contact{
+    padding: 10px;
+    font-size: small;
+    width: 25%;
+    float: right;
+    border: solid 2px gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    background-color: lightblue;
+    background: linear-gradient(225deg, turquoise, lightblue, lightpink);
+}
+
+section{
+    background: url(swimmingpool.jpg) white no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 360px 0 0 100px;
+}
+
+h2{
+    color: white;
+    text-shadow: 2px 2px 10px black;
+}
+
+/*CSS style for Semester Project: Forms & Tables*/
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+table tr:nth-of-type(even){
+    background-color: #adcde6;
+}
+
+.imgcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    transition: 2s ease-in;
+}
+
+.imgcenter:hover{
+    transform: scale(1.5);
+}
+
+thead tr{
+    background-color: #244e71;
+    color:white;
+}
+
+thead th{
+    letter-spacing: 2px;
+}
+
+td{    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;    
+}
+
+tfoot tr{
+    background-color: #244e71;
+    color:white;
+    letter-spacing: 2px;
+}
+
+caption{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+th, td{
+    padding: 10px;
+}
+
+form#program div.buttonCell{
+    text-align: center;
+}
+
+form#program div.buttonCell input{
+    background-color:#244e71;
+    color: white;
+    border: 2px outset white;
+    height: 35px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+
+form#contactus{
+    margin: auto auto;
+    padding: 10px;
+    line-height: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+}
+
+form#contactus p{
+    padding: 0 0 0 0;
+    margin: 0;
+}
+
+form#contactus label{
+    font-size: 0.95em;
+    width: 150px;
+}
+
+div.formRow{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 7px;
+}
+
+div.formRow input, div.formRow select{
+    width: 300px;
+}
+
+div.formRow label{
+    width: 150px;
+}
+
+form#contactus fieldset{
+    border: 2px solid #244e71;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #efefef;
+}
+
+#lmsg{
+    display: block;
+    margin: 7px 0 7px 7px;
+}
+
+form#contactus textarea{
+    display: block;
+    margin: 0 0 10px 7px;
+}
+
+div.formRad{
+    margin:  0 0 0 7px;
+}
+
+form#contactus div.buttonRow{
+    margin-top: 10px;
+}
+
+form#contactus div.buttonRow input{
+    background-color:#244e71;
+    color: white;
+    border: 2px outset white;
+    height: 35px;
+    font-size: 0.95em;
+    letter-spacing: 1px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 140px;
+}
+
+form#contactus div.buttonRow input:focus{
+    color: #adcde6;
+}
